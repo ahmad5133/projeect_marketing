@@ -1,3 +1,66 @@
-:root{
-    
-}
+.navbar .nav-link {
+    color: #6c757d;
+    position: relative;
+    }
+
+    .navbar .nav-link.active,
+    .navbar .nav-link:hover {
+    color: #000;
+    }
+
+    .navbar .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 2px;
+    background-color: #c00;
+    }
+
+    .book-btn {
+    background-color: #c00;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 20px;
+    text-decoration: none;
+    }
+
+    .book-btn:hover {
+    background-color: #c00;
+    color: white;
+    }
+
+    .navbar-brand span {
+    color: #c00;
+    }
+    body {
+    background-color: #f8f9fa;
+    }
+    .hero-text h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 64px;
+    }
+    .btn-custom {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 50px;
+    }
+    .video-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    }
+    .video-btn i {
+    font-size: 24px;
+    color: #c00;
+    }
+    .hero-section {
+    padding: 60px 0;
+    }
+    .food-image {
+    max-width: 70%;
+    border-radius: 20px;
+    }

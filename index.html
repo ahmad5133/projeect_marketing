@@ -8,12 +8,15 @@
     <title>marketing</title>
 
     <!-- css -->
+    <link rel="stylesheet" href="./assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style/main.css">
 
     <!-- js -->
+    <link rel="stylesheet" href="./assets/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="./assets/js/main.js">
     <script src="./assets/js/main.js"></script>
+
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +26,89 @@
 </head>
 
 <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🍓JuicyVibe<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">juice maker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" class="book-btn">Book a Table</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- section 1  start -->
+    <div class="container hero-section">
+        <div class="row align-items-center">
+            <div class="col-md-6 hero-text">
+                <h1>Enjoy Your Healthy<br>Delicious Food</h1>
+                <p class="lead">We are team of talented designers making websites with Bootstrap</p>
+                <div class="mt-4 d-flex align-items-center gap-3">
+                    <a href="#" class="btn btn-danger btn-custom">Book a Table</a>
+                    <a href="#" class="video-btn">
+                        <i class="fa-regular fa-circle-video"></i> Watch Video
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="./assets/img/hero/hero-img.jpg" alt="Delicious Food" class="food-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Icons -->
+    <!-- section 1  end -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
     </script>
+    <script src="../setup.js"></script>
+    <script src="dist/lib_fast_deprecated.chunk.js"></script>
+    <script src="dist/lib_fast_web_components.chunk.js"></script>
+    <script src="dist/lib_react.chunk.js"></script>
+    <script src="dist/pdfui_component.chunk.js"></script>
+    <script src="dist/pdf.bundle.js"></script>
+
+
 </body>
 
 </html>
