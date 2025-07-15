@@ -213,3 +213,33 @@
 .nav-tabs .nav-link {
     color: #333;
     }
+
+/* section  6 */
+.section6 .menu-title {
+    font-family: 'Cursive', sans-serif;
+    font-family: 'Amatic SC', cursive;
+      font-size: 2rem;
+      color: #d10000;
+      font-weight: bold;
+    }
+    .price {
+      color: #d10000;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .section6 .menu-item img {
+      max-width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      height: 180px;
+      width: 180px;
+    }
+    .section6 .menu-item h5 {
+      margin-top: 15px;
+      font-weight: 600;
+    }
+    .section6 .menu-item p {
+      font-size: 0.9rem;
+      color: gray;
+      margin-bottom: 5px;
+    }
