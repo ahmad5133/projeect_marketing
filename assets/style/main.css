@@ -246,120 +246,119 @@
 
     /* section  7 */
 .testimonial-section {
-      background-color: #F2F2F2;
-      padding: 60px 20px;
-      text-align: center;
+    background-color: #F2F2F2;
+    padding: 60px 20px;
+    text-align: center;
     }
 
-    .testimonial-title {
-      font-family: 'Cursive', sans-serif;
-      font-size: 2rem;
+.testimonial-title {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2rem;
     }
 
-    .testimonial-title span {
-      color: #d10000;
+.testimonial-title span {
+    color: #d10000;
     }
 
-    .testimonial-box {
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      text-align: left;
-      position: relative;
-      max-width: 800px;
-      margin: auto;
-      border-left: solid #CC0000;
+.testimonial-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: left;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    border-left: solid #CC0000;
     }
 
-    .testimonial-text::before {
-      content: "❝";
-      font-size: 2rem;
-      color: #d10000;
-      position: absolute;
-      left: 10px;
-      top: 10px;
+.testimonial-text::before {
+    content: "❝";
+    font-size: 2rem;
+    color: #d10000;
+    position: absolute;
+    left: 10px;
+    top: 10px;
     }
 
-    .testimonial-text::after {
-      content: "❞";
-      font-size: 2rem;
-      color: #d10000;
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
+.testimonial-text::after {
+    content: "❞";
+    font-size: 2rem;
+    color: #d10000;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
     }
 
-    .testimonial-text {
-      font-size: 1rem;
-      color: #444;
-      line-height: 1.7;
-      margin-bottom: 20px;
+.testimonial-text {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 20px;
     }
 
-    .testimonial-author {
-      font-weight: bold;
+.testimonial-author {
+    font-weight: bold;
     }
 
-    .testimonial-role {
-      font-size: 0.85rem;
-      color: gray;
+.testimonial-role {
+    font-size: 0.85rem;
+    color: gray;
     }
 
-    .testimonial-stars {
-      color: gold;
+.testimonial-stars {
+    color: gold;
     }
 
-    .testimonial-img {
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-      border: 4px solid white;
-      margin-top: -50px;
+.testimonial-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-top: -50px;
     }
 
     /* section 8 */
 .reservation-section {
-      padding: 60px 0;
-      background-color: #fff;
+    padding: 60px 0;
+    background-color: #fff;
     }
 
-    .reservation-title {
-      text-align: center;
-      margin-bottom: 40px;
+.reservation-title {
+    text-align: center;
+    margin-bottom: 40px;
     }
 
-    .reservation-title small {
-      text-transform: uppercase;
-      color: gray;
-      letter-spacing: 1px;
+.reservation-title small {
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 1px;
     }
 
-    .reservation-title h2 {
-      font-family: 'Cursive', sans-serif;
+.reservation-title h2 {
+    font-family: 'Cursive', sans-serif;
     }
 
-    .reservation-title .text-danger {
-      color: #e74c3c !important;
+.reservation-title .text-danger {
+    color: #e74c3c !important;
     }
 
-    .form-control, .form-select {
-      border-radius: 0;
+.form-control, .form-select {
+    border-radius: 0;
     }
 
-    .btn-red {
-      background-color:#CC0000;
-      color: white;
-      border: none;
+.btn-red {
+    background-color:#CC0000;
+    color: white;
+    border: none;
     }
 
-    
-    .left-img {
-      width: 350px;
-      height: 100%;
-      object-fit: cover;
-      line-height: 24px;
+.left-img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+    line-height: 24px;
     }
 
     /* section 9 */
