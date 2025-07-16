@@ -8,6 +8,7 @@
     <title>marketing</title>
 
     <!-- css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style/main.css">
@@ -98,7 +99,8 @@
                 </div>
             </div>
             <div class="col-md-6 text-center">
-                <img src="./assets/img/hero/hero-img.jpg" alt="Delicious Food" class="food-image">
+                <img src="./assets/img/hero/hero-img.jpg" alt="Delicious Food" class="food-image" data-aos="fade-down"
+                    data-aos-easing="linear" data-aos-duration="1500">>
             </div>
         </div>
     </div>
@@ -114,7 +116,7 @@
 
         <div class="row align-items-start">
             <div class="col-md-6">
-                <img src="./assets/img/juice33.png" alt="Restaurant" class="img-fluid rounded">
+                <img src="./assets/img/juice33.png" alt="Restaurant" class="img-fluid rounded" data-aos="fade-up-right">
                 <div class="book-table">
                     <div>Book a Table</div>
                     <strong>+1 5589 55488 55</strong>
@@ -276,7 +278,7 @@
         <div class="row mt-5 g-4">
             <!-- Item 1 -->
             <div class="col-md-4 menu-item">
-                <img src="./assets/img/juice5.jpg" alt="Dish 1">
+                <img src="./assets/img/juice5.jpg" alt="Dish 1" data-aos="fade-up" data-aos-duration="3000">
                 <h5>Magnam Tiste</h5>
                 <p>Lorem, deren, trataro, filede, nerada</p>
                 <div class="price">$5.95</div>
@@ -284,7 +286,8 @@
 
             <!-- Item 2 -->
             <div class="col-md-4 menu-item">
-                <img src="./assets/img/juice6.png" alt="Dish 2">
+                <img src="./assets/img/juice6.png" alt="Dish 2" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1500">
                 <h5>Aut Luia</h5>
                 <p>Lorem, deren, trataro, filede, nerada</p>
                 <div class="price">$14.95</div>
@@ -292,7 +295,8 @@
 
             <!-- Item 3 -->
             <div class="col-md-4 menu-item">
-                <img src="./assets/img/juice10.png" alt="Dish 3">
+                <img src="./assets/img/juice10.png" alt="Dish 3" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                 <h5>Est Eligendi</h5>
                 <p>Lorem, deren, trataro, filede, nerada</p>
                 <div class="price">$8.95</div>
@@ -300,7 +304,8 @@
 
             <!-- Item 4 -->
             <div class="col-md-4 menu-item">
-                <img src="./assets/img/juice9.png" alt="Dish 4">
+                <img src="./assets/img/juice9.png" alt="Dish 4" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                    data-aos-offset="500" data-aos-duration="500">
                 <h5>Eos Luibusdam</h5>
                 <p>Lorem, deren, trataro, filede, nerada</p>
                 <div class="price">$12.95</div>
@@ -308,7 +313,8 @@
 
             <!-- Item 5 -->
             <div class="col-md-4 menu-item">
-                <img src="./assets/img/juice8.png" alt="Dish 5">
+                <img src="./assets/img/juice8.png" alt="Dish 5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="300" data-aos-offset="0">
                 <h5>Eos Luibusdam</h5>
                 <p>Lorem, deren, trataro, filede, nerada</p>
                 <div class="price">$12.95</div>
@@ -316,7 +322,8 @@
 
             <!-- Item 6 -->
             <div class="col-md-4 menu-item">
-                <img src="./assets/img/juice7.png" alt="Dish 6">
+                <img src="./assets/img/juice7.png" alt="Dish 6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                 <h5>Laboriosam Direva</h5>
                 <p>Lorem, deren, trataro, filede, nerada</p>
                 <div class="price">$9.95</div>
@@ -528,7 +535,11 @@
     <script src="dist/lib_react.chunk.js"></script>
     <script src="dist/pdfui_component.chunk.js"></script>
     <script src="dist/pdf.bundle.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
